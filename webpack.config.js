@@ -10,14 +10,14 @@ var config = {
     path: BUILD_DIR,
     filename: 'bundle.js'
   },
-  module : {
-    loaders : [
-      {
+  module: {
+    rules: [{
         test : /\.jsx?/,
         include : APP_DIR,
-        loader : 'babel'
-      }
-    ]
+        use: [
+          {loader: "babel-loader"}
+        ]
+    }]
   }
 };
 

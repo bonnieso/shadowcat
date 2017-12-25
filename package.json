@@ -1,4 +1,4 @@
- {
+{
   "name": "shadowcat",
   "version": "1.0.0",
   "description": "React starter - includes Babel, Webpack, and React.",
@@ -7,16 +7,16 @@
     "babel-core": "^6.7.6",
     "babel-preset-es2015": "^6.6.0",
     "babel-preset-react": "^6.5.0",
-    "babel-loader": "^6.2.4",
-    "react": "^15.0.1",
-    "webpack": "^1.12.15",
-    "react-dom": "^15.0.1"
+    "babel-loader": "^7.1.2",
+    "react": "^16.2.0",
+    "webpack": "^3.10.0",
+    "react-dom": "^16.2.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "test",
     "watch": "webpack -d --watch",
-    "build" : "webpack -p"
+    "build": "webpack -p"
   },
   "repository": {
     "type": "git",
