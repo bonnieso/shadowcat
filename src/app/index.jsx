@@ -1,15 +1,17 @@
 import React from 'react';
 import {render} from 'react-dom';
+import { Link, BrowserRouter, Route } from 'react-router-dom';
 
-import AwesomeComponent from './AwesomeComponent.jsx';
+import Like from './Like.jsx';
 
 class App extends React.Component {
   render () {
     return (
-      <div>
-        <p> Hello React!</p>
-        <AwesomeComponent />
-      </div>
+        <div>
+          <div>
+              Hello
+          </div>
+        </div>
     );
   }
 }
